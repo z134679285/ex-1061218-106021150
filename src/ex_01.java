@@ -6,6 +6,6 @@ public class ex_01 {
         Scanner scn =new Scanner(System.in);
 	    Double d=scn.nextDouble();
 	    int n =scn.nextInt();
-        System.out.println(Math.rint(d*Math.pow(10,n))/Math.pow(10,n));
+        System.out.println(Math.rint(d*Math.pow(10,n))/Math.pow(10f,n));
     }
 }
